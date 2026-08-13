@@ -6,7 +6,7 @@ class B extends A{
 	int y=20;
 	void display()
 	{
-		System.out.println("sum=+"(x+y));
+		System.out.println("sum="+(x+y));
 	}
 }
 class C extends A{
@@ -20,7 +20,7 @@ class Oops10
 	public static void main(String[] args)
 	{
 		B b=new B();
-		C c new ();
+		C c=new ();
 		b.display();
 		c.display();
 	}
