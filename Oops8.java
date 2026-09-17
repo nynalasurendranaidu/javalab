@@ -13,6 +13,7 @@ class B extends A{
 class Oops8{
 	public static void main(String[] args){
 		A a=new B();
-         a.sound;
+         
+		 a.sound;
 	}
 }
